@@ -1,0 +1,113 @@
+.nav_bar {
+    padding-left: 80px;
+    padding-right: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_bar_item {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.nav_bar_item a:link {
+    color: grey;
+    font-size: 24px;
+    font-family: Gilroy-Bold;
+    text-decoration: none;
+    display: table-cell;
+    padding-left: 24px;
+}
+
+#hire {
+    box-shadow: inset 0px 1px 3px 0px #91b8b3;
+    background-color: yellow;
+    border-radius: 5px;
+    border: 1px solid yellow;
+    display: inline-block;
+    cursor: pointer;
+    color: black;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 8px 40px;
+    text-decoration: none;
+    text-shadow: 0px -1px 0px #2b665e;
+}
+
+#hire:active {
+    position: relative;
+    top: 1px;
+}
+
+.main_div {
+    margin: 80px 80px 80px 80px;
+    padding: 80px 80px 80px 80px;
+}
+
+.services_div {
+    margin: 80px 80px 80px 80px;
+    padding: 80px 80px 80px 80px;
+    background: #fcda69;
+}
+
+.experience_div {
+    margin: 80px 80px 8px 80px;
+    padding: 80px 80px 80px 80px;
+}
+
+.footer_div {
+    margin: 80px 80px 0px 80px;
+    padding: 80px 80px 40px 80px;
+    background: #fcda69;
+}
+
+hr {
+    border: 1px solid black;
+}
+
+/* Font Related */
+h1 {
+    font-family: Gilroy-Extrabold;
+}
+
+h2 {
+    font-family: Gilroy-Bold;
+}
+
+h3 {
+    font-family: Gilroy-Semibold;
+}
+
+h4 {
+    font-family: Gilroy-Medium;
+}
+
+h5 {
+    font-family: Gilroy-Regular;
+}
+
+@font-face {
+    font-family: "Gilroy-Medium";
+    src: url("/assets/fonts/Gilroy-Medium.otf");
+}
+
+@font-face {
+    font-family: "Gilroy-Bold";
+    src: url("/assets/fonts/Gilroy-Bold.otf");
+}
+
+@font-face {
+    font-family: "Gilroy-Semibold";
+    src: url("/assets/fonts/Gilroy-Semibold.otf");
+}
+
+@font-face {
+    font-family: "Gilroy-Extrabold";
+    src: url("/assets/fonts/Gilroy-Extrabold.otf");
+}
+
+@font-face {
+    font-family: "Gilroy-Regular";
+    src: url("/assets/fonts/Gilroy-Regular.otf");
+}
