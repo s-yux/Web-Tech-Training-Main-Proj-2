@@ -1,0 +1,52 @@
+.main {
+    margin-top: 88px; /* Add a top margin to avoid content overlay */
+}
+
+.main_div {
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+.services_div {
+    margin: 80px 80px 80px 80px;
+    padding: 0px 80px 80px 80px;
+    background: #fcda69;
+}
+
+.experience_div {
+    margin: 80px 80px 8px 80px;
+    padding: 0px 80px 80px 80px;
+}
+
+.experience_table_data{
+    padding-right: 40px;
+    font-family: Gilroy-Bold;
+    font-size: 20px;
+}
+
+.experience_job_title{
+    padding-left: 40px;
+    font-family: Gilroy-Semibold;
+    font-size: 16px;
+}
+
+.experience_job_company{
+    padding-left: 40px;
+    font-family: Gilroy-Medium;
+    font-size: 16px;
+}
+
+.footer_div {
+    margin: 80px 80px 0px 80px;
+    padding: 80px 80px 40px 80px;
+    background: #fcda69;
+}
+
+.social_img{
+    width: 60px;
+    height: 60px;
+}
+
+hr {
+    border: 1px solid black;
+}
